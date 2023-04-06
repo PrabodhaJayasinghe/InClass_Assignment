@@ -64,8 +64,9 @@ class Stack{
 
 };
 int main() {
-    Stack stk;
+
     auto start = high_resolution_clock::now();
+    Stack stk;
     stk.push(8);
     stk.push(10);
     stk.push(8);
